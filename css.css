@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07-Mar-2022, 21:57:34
+    Author     : catha
+*/
+
+:root{
+    --color-primary: #00a7a9;
+    --color-bg: #0b2d39;
+    --color-secondary: #580ff7;
+    --text-font: 500 1.25rem "Poppins", sans-serif;
+}
+
+body {
+    background: var(--color-primary);
+    align: center;
+}
+
+.masthead {
+  background-color: #428bca;
+  -webkit-box-shadow: inset 0 -2px 5px rgba(0, 0, 0, .1);
+  box-shadow: inset 0 -2px 5px rgba(0, 0, 0, .1);
+}
+
+.nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;
+  color: #cdddeb;
+}
+.nav-item:hover,
+.nav-item:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav .active {
+  color: #fff;
+}
+.nav .active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid;
+  border-left: 5px solid transparent;
+}
+
+.container {
+    position: absolute; 
+    top: 20px;
+    left: 520px;
+    text-align: center;
+    align-items: center;
+    width: 400px;
+    max-width: 400px;
+    border-radius: 100px;
+    padding: 30px;
+    background: var(--color-primary);
+}
+
+.header-box {
+    box-sizing: content-box;
+    float: none;
+    position: static;
+    background: var(--color-primary);
+    padding-bottom: 2rem;
+    text-align: right;
+}
+
+.redirectbutton{
+    cursor: pointer;
+    background: var(--color-secondary);
+    outline: none;
+    border: none;
+    padding: 1rem 2rem;
+    font: var(--text-font);
+    width: 75px;
+    border-radius: 1rem;
+}
+
+.redirectbutton:active{
+    transform: scale(0.95);
+}
+
+.container,
+.text,
+.field{
+    font: var(--text-font);
+}
+
+.formtitle{
+    font-size: 30px;
+}
+
+.formbutton{
+    cursor: pointer;
+    padding: 2rem 5rem;
+    background: var(--color-secondary);
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    font: var(--text-font);
+}
+
+.formbutton:active{
+    transform: scale(0.95);
+}
+
+.inputfield{
+    border-radius: 30px;
+    padding: 1rem;
+}
+
+.text{
+    font: var(--text-font);
+}
+
+.bodytext{
+    background: beige;
+    justify-content: left;
+    border-radius: 30 px;
+}
+
+.headings{
+    text-decoration: underline;
+    font-weight: 600;
+}
